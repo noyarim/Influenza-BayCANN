@@ -305,3 +305,5 @@ ggplot(data=xscaled_t)+
   geom_density(aes(x=value))+
   facet_wrap(~variable)+
   scale_x_log10()
+
+# let's try Poisson!
